@@ -1,0 +1,54 @@
+html {
+  background-color: antiquewhite;
+  align-items: center;
+}
+
+body {
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  max-width: 500px;
+  padding-top: 2px;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#introPic {
+  float: none;
+  padding-top: 2px;
+  width: 50%;
+  height: 50%;
+}
+
+#bio {
+  float: none;
+}
+
+#bio > li {
+  padding: 2%;
+}
+
+#pro {
+  width: auto;
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  h1 {
+    font-size: 30px;
+  }
+  img {
+    width: 80%;
+  }
+}
